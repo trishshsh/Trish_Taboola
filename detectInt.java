@@ -35,6 +35,21 @@ public class detectInt {
         //Test Brute Force Solution
         System.out.println("Testing Solution #1");
 
+        //Prompt Example 1
+        String example1 = "45222";
+        boolean ex1 = hasInt(example1);
+        System.out.println("Example 1 [true]: " + ex1); 
+
+        //Prompt Example 2
+        String example2 = "This Is A Test4me";
+        boolean ex2 = hasInt(example2);
+        System.out.println("Example 2 [true]: " + ex2); 
+
+        //Prompt Example 3
+        String example3 = "IAMGOOD";
+        boolean ex3 = hasInt(example3);
+        System.out.println("Example 3 [false]: " + ex3); 
+
         //Regular Combination of Letters and Numbers
         String combo = "h3ll0";
         boolean combination = hasInt(combo);
@@ -44,6 +59,11 @@ public class detectInt {
         String empty = "";
         boolean emptyInt = hasInt(empty);
         System.out.println("Empty String [false]: " + emptyInt);
+
+        //Null String
+        String nullString = null;
+        boolean nullStringInt = hasInt(nullString);
+        System.out.println("Null String [false]: " + nullStringInt);
 
         //Lowercase Letter
         String lower = "abcdefghijklmnopqrstuvwxyz";
