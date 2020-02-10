@@ -1,7 +1,7 @@
 /* Author: Trish Lam
 * Date: 2/9/2020
 * File: stringToInt.java
-* For: Taboola Backend Engineer Intern Take Home Test (Part 1)
+* For: Taboola Backend Software Engineer Intern Take Home Test (Part 1)
 * Purpose: This file is a Java program that takes a string input and converts it to an integer without
 using the build-in parse function.
 */

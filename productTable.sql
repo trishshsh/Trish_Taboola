@@ -1,7 +1,7 @@
 --Author: Trish Lam
 --Date: 2/9/2020
 --File: productTable.sql
---For: Taboola Backend Engineer Intern Take Home Test (Part 3)
+--For: Taboola Backend Software Engineer Intern Take Home Test (Part 3)
 --Purpose: Design two new tables to store information about products and its price history
 
 

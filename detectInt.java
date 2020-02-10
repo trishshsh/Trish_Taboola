@@ -1,7 +1,7 @@
 /* Author: Trish Lam
 * Date: 2/9/2020
 * File: detectInt.java
-* For: Taboola Backend Engineer Intern Take Home Test (Part 2)
+* For: Taboola Backend Software Engineer Intern Take Home Test (Part 2)
 * Purpose: This file is a Java program that take a input and detect whether there’s integer in
 there.
 */
