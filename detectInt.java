@@ -14,16 +14,23 @@ public class detectInt {
     * function returns true. Else, it will return false.
     */
     public static boolean hasInt(String input) {
+        if (input == null) {
+            return false;
+        }
         int index = input.length() - 1;
         for (int i = index; i >= 0; i--) {
             char currChar = input.charAt(i);
+            // Calculates actual character value
             int value = currChar - '0';
+            // If it returns an integer, return true
             if (value > -1 && value < 10) {
                 return true;
             }
         }
         return false;
     }
+
+    /* Test Cases in the main method to print out expected values */
     public static void main(String args[]){
         //Test Brute Force Solution
         System.out.println("Testing Solution #1");
