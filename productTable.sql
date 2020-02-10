@@ -1,3 +1,11 @@
+--Author: Trish Lam
+--Date: 2/9/2020
+--File: productTable.sql
+--For: Taboola Backend Engineer Intern Take Home Test (Part 3)
+--Purpose: Design two new tables to store information about products and its price history
+
+
+
 --Create Table for Products, including strings: the product name as the
 --primary key and the category in which the product is in.
 CREATE TABLE Products (
